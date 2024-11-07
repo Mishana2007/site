@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Экран загрузки -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">Загрузка...</p>
+  </div>
+
+  <!-- Основное содержимое приложения (будет видно после загрузки) -->
+  <div id="appContent" style="display: none;">
+    <h1 class="title">Главная</h1>
+    
+    <!-- Кнопки навигации -->
+    <div class="nav-buttons">
+      <button class="nav-button">Курсы</button>
+      <button class="nav-button">Вебинары</button>
+      <button class="nav-button">Программы</button>
+    </div>
+
+    <!-- Секция карточек товаров -->
+    <div class="product-cards">
+      <div class="product-card">
+        <div class="product-image"></div>
+        <h2 class="product-title">Товар 1</h2>
+        <button class="product-button">Подробнее</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image"></div>
+        <h2 class="product-title">Товар 2</h2>
+        <button class="product-button">Подробнее</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image"></div>
+        <h2 class="product-title">Товар 3</h2>
+        <button class="product-button">Подробнее</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image"></div>
+        <h2 class="product-title">Товар 4</h2>
+        <button class="product-button">Подробнее</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image"></div>
+        <h2 class="product-title">Товар 5</h2>
+        <button class="product-button">Подробнее</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
